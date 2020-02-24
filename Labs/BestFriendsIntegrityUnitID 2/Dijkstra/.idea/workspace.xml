@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9fe97cbe-048e-4240-8804-4e682db90f38" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y1TfgOX4NhvegRJh8sMRoWYS0y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="graph.productivity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kopylchak.dijkstra.Main" />
+      <module name="Dijkstra" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DijkstraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dijkstra" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grapgh.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="grapgh.algorithms" />
+      <option name="MAIN_CLASS_NAME" value="grapgh.algorithms.DijkstraTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DijkstraTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dijkstra" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grapgh.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="grapgh.algorithms" />
+      <option name="MAIN_CLASS_NAME" value="grapgh.algorithms.DijkstraTest" />
+      <option name="METHOD_NAME" value="test(java.lang.String,java.lang.String,java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DijkstraTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dijkstra" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grapgh.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="grapgh.algorithms" />
+      <option name="MAIN_CLASS_NAME" value="grapgh.algorithms.DijkstraTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DijkstraTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dijkstra" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="graph.algorithms" />
+      <option name="MAIN_CLASS_NAME" value="graph.algorithms.DijkstraTest" />
+      <option name="METHOD_NAME" value="test(java.lang.String,java.lang.String,java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.DijkstraTest" />
+      <item itemvalue="JUnit.DijkstraTest.test" />
+      <item itemvalue="JUnit.DijkstraTest.test (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.DijkstraTest.test (1)" />
+        <item itemvalue="JUnit.DijkstraTest" />
+        <item itemvalue="JUnit.DijkstraTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fe97cbe-048e-4240-8804-4e682db90f38" name="Default Changelist" comment="" />
+      <created>1582109205630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582109205630</updated>
+      <workItem from="1582109209489" duration="12650000" />
+      <workItem from="1582191324858" duration="20060000" />
+      <workItem from="1582298008917" duration="14631000" />
+      <workItem from="1582364585371" duration="25219000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Project_Structure" timestamp="1582109216396">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1582109216396" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582368183382">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582368183382" />
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1582392843755">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582392843755" />
+    <state x="449" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582393338624">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1582393338624" />
+    <state x="482" y="257" width="488" height="567" key="#xdebugger.evaluate" timestamp="1582377006833">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="482" y="257" width="488" height="567" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1582377006833" />
+    <state width="1010" height="438" key="DebuggerActiveHint" timestamp="1582393951030">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1010" height="438" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1582393951030" />
+    <state width="1493" height="173" key="GridCell.Tab.0.bottom" timestamp="1582395631926">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="173" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582395631926" />
+    <state width="1493" height="173" key="GridCell.Tab.0.center" timestamp="1582395631926">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="173" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582395631926" />
+    <state width="1493" height="173" key="GridCell.Tab.0.left" timestamp="1582395631926">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="173" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582395631926" />
+    <state width="1493" height="173" key="GridCell.Tab.0.right" timestamp="1582395631926">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="173" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582395631926" />
+    <state width="1493" height="173" key="GridCell.Tab.1.bottom" timestamp="1582395631927">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="173" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582395631927" />
+    <state width="1493" height="173" key="GridCell.Tab.1.center" timestamp="1582395631927">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="173" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582395631927" />
+    <state width="1493" height="173" key="GridCell.Tab.1.left" timestamp="1582395631927">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="173" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582395631927" />
+    <state width="1493" height="173" key="GridCell.Tab.1.right" timestamp="1582395631927">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="173" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582395631927" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1582365001145">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582365001145" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1582394066188">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1582394066188" />
+    <state x="209" y="109" key="new project wizard" timestamp="1582395629259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="109" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1582395629259" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1582381187954">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1582381187954" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582380055548">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582380055548" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kopylchak/dijkstra/graph/io/InputStreamGraphReader.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kopylchak/dijkstra/controller/ConsoleController.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Dijkstra$DijkstraTest_test__1_.ic" NAME="DijkstraTest.test (1) Coverage Results" MODIFIED="1582221870731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>grapgh.algorithms.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Dijkstra$DijkstraTest_test__2_.ic" NAME="DijkstraTest.test (2) Coverage Results" MODIFIED="1582221894302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>graph.algorithms.*</FILTER>
+    </SUITE>
+  </component>
+</project>
