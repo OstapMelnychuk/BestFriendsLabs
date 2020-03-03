@@ -1,0 +1,4 @@
+# Created at 2020-02-20T21:07:25.233
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Dropbox\універ\3 курс\2 семестр\Паралельне обчислення\Dijkstra\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
