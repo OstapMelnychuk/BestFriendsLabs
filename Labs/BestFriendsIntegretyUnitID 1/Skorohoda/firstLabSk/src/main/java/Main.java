@@ -5,11 +5,11 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        File file = new File("src\\main\\resources\\alice29.txt");
+        File file = new File("src\\main\\resources\\plrabn12.txt");
 
         SimpleStringParser simpleStringParser = new SimpleStringParser(FileUtils.readFileToString(file, "UTF-8"), "a");
         //SimpleStringParser recursiveStringParser = new RecursiveStringParser(FileUtils.readFileToString(file, "UTF-8"), "a");
-        SimpleStringParser parallelStringParser = new ParallelStringParser(FileUtils.readFileToString(file, "UTF-8"), "a", 14);
+        SimpleStringParser parallelStringParser = new ParallelStringParser(FileUtils.readFileToString(file, "UTF-8"), "a", 100);
 
         System.out.println("Time for simple: " + SecondsTimer.calculateTime(simpleStringParser::parse).toMillis() / 1000d + " seconds;\n"
                 + simpleStringParser.getArrayOfIndexes().toString());
