@@ -3,11 +3,18 @@ import java.util.concurrent.*;
 import java.util.stream.Collectors;
 
 public class ParallelStringParser extends SimpleStringParser implements Callable<ArrayList<Integer>>, StringParser {
-    private int numberOfThreads;
+    private int numberOfThreads = 1;
+    private ExecutorService executor;
 
     public ParallelStringParser(String textForParsing, String subString, int numberOfThreads) {
         super(textForParsing, subString);
         this.numberOfThreads = numberOfThreads;
+        executor = Executors.newFixedThreadPool(numberOfThreads);
+    }
+
+    public ParallelStringParser(String textForParsing, String subString) {
+        super(textForParsing, subString);
+        executor = Executors.newCachedThreadPool();
     }
 
     private int findIndexForSplitting(String copyOfTextForParsing, int numberOfThreads) {
@@ -28,7 +35,6 @@ public class ParallelStringParser extends SimpleStringParser implements Callable
 
     @Override
     public void parse() {
-        ExecutorService executor = Executors.newFixedThreadPool(numberOfThreads);
         Future<ArrayList<Integer>> future;
         String copyOfTextForParsing = textForParsing;
 
@@ -44,10 +50,15 @@ public class ParallelStringParser extends SimpleStringParser implements Callable
                 indexOfSplitting = copyOfTextForParsing.length();
             }
 
-            future = executor.submit(
-                    new ParallelStringParser(copyOfTextForParsing.substring(0, indexOfSplitting),
-                            subString, numberOfThreads));
-
+            if (this.numberOfThreads != 1) {
+                future = executor.submit(
+                        new ParallelStringParser(copyOfTextForParsing.substring(0, indexOfSplitting),
+                                subString, numberOfThreads));
+            } else {
+                future = executor.submit(
+                        new ParallelStringParser(copyOfTextForParsing.substring(0, indexOfSplitting),
+                                subString));
+            }
             copyOfTextForParsing = copyOfTextForParsing.substring(indexOfSplitting);
 
             try {
