@@ -1,39 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e1c40e9-ec04-4352-b5aa-5b741e31b73a" name="Default Changelist" comment="">
+    <list default="true" id="0aef80b2-823b-490e-9d2e-7a01d83cf459" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../BestFriendsIntegretyUnitID 1/Skorohoda/firstLabSk/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestFriendsIntegretyUnitID 1/Skorohoda/firstLabSk/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BestFriendsIntegretyUnitID 1/Skorohoda/firstLabSk/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestFriendsIntegretyUnitID 1/Skorohoda/firstLabSk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BestFriendsIntegretyUnitID 1/Skorohoda/firstLabSk/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestFriendsIntegretyUnitID 1/Skorohoda/firstLabSk/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BestFriendsIntegretyUnitID 1/Skorohoda/firstLabSk/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestFriendsIntegretyUnitID 1/Skorohoda/firstLabSk/src/main/java/ParallelStringParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BestFriendsIntegretyUnitID 1/Skorohoda/firstLabSk/src/main/java/ParallelStringParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestFriendsIntegretyUnitID 1/Skorohoda/firstLabSk/src/main/java/SecondsTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BestFriendsIntegretyUnitID 1/Skorohoda/firstLabSk/src/main/java/SecondsTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestFriendsIntegretyUnitID 1/Skorohoda/firstLabSk/target/classes/META-INF/firstLabSk.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Riznyk/Lab 1 CompGraph/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Riznyk/Lab 1 CompGraph/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1/META-INF/Lab1.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1/META-INF/Lab1.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectId" id="1YENvS2WQxP7OxzzzeBkc7lmcxt" />
+  <component name="ProjectId" id="1YkVS9eN3y8r3ZJQuqlCcFCtzyV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,46 +36,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-  </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Lab1" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e1c40e9-ec04-4352-b5aa-5b741e31b73a" name="Default Changelist" comment="" />
-      <created>1582504024250</created>
+      <changelist id="0aef80b2-823b-490e-9d2e-7a01d83cf459" name="Default Changelist" comment="" />
+      <created>1583486575487</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582504024250</updated>
-      <workItem from="1582504030582" duration="8982000" />
-      <workItem from="1582565182135" duration="243000" />
-      <workItem from="1582565449314" duration="7455000" />
-      <workItem from="1582808488493" duration="3318000" />
-      <workItem from="1582969013339" duration="2760000" />
-      <workItem from="1583249029244" duration="625000" />
+      <updated>1583486575487</updated>
+      <workItem from="1583486577346" duration="68000" />
+      <workItem from="1583486662491" duration="67000" />
     </task>
     <servers />
   </component>
@@ -88,80 +64,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="70" key="#Project_Structure" timestamp="1582504398739">
+    <state x="223" y="49" width="1089" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583486711110">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1582504398739" />
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1583247450960">
+    <state x="223" y="49" width="1089" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583486711110" />
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583486600122">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583247450960" />
-    <state x="486" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582548644290">
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1583486600122" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1583486629063">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="486" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1582548644290" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582507433762">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583486629063" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1583486728272">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582507433762" />
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1583247985839">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583247985839" />
-    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1583247985839">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583247985839" />
-    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1583247985839">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583247985839" />
-    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1583247985839">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583247985839" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582844453478">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582844453478" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1582844453478">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582844453478" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1582844453478">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582844453478" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1582844453478">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582844453478" />
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1582970577127">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582970577127" />
-    <state x="462" y="203" key="git4idea.merge.GitPullDialog" timestamp="1583249052576">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="462" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1583249052576" />
-    <state x="218" y="107" key="new project wizard" timestamp="1582570090603">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="218" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1582570090603" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1582508876299">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1582508876299" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/ThreadCreator.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583486728272" />
   </component>
 </project>
