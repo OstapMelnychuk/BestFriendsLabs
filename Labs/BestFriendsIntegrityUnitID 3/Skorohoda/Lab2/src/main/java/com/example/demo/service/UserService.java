@@ -29,7 +29,8 @@ public class UserService {
         if (userRepository.findById(user.getId()).isPresent()) {
             throw new UserAlreadyRegisteredException(ErrorMessage.USER_ALREADY_REGISTERED + user.getId());
         }
-        userRepository.save(user);
+        System.out.println(user.getPassword());
+
     }
 
     public void update(UserDTO userDTO) {

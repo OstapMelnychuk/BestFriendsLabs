@@ -19,7 +19,7 @@ public class ThreadCreator {
         List<Future<Boolean>> futures;
         countingThreads.add(new CountingThreads(equations, equations.subList(0, equations.size() / threadQuantity)));
         for (int i = 1; i < threadQuantity; i++) {
-            countingThreads.add(new CountingThreads(equations, equations.subList((equations.size() / 8) * i, (equations.size() / 8) * (i + 1))));
+            countingThreads.add(new CountingThreads(equations, equations.subList((equations.size() / threadQuantity) * i, (equations.size() / threadQuantity) * (i + 1))));
         }
         try {
             Instant startThread = Instant.now();
