@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="686.0" prefWidth="937.0" style="-fx-background-color: #4287f5;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="point_x" layoutX="83.0" layoutY="85.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="point_y" layoutX="184.0" layoutY="85.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="trans_matrix_a" layoutX="460.0" layoutY="78.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="trans_matrix_b" layoutX="527.0" layoutY="78.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="trans_matrix_c" layoutX="460.0" layoutY="133.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="trans_matrix_d" layoutX="527.0" layoutY="133.0" prefHeight="26.0" prefWidth="42.0" />
+      <Label layoutX="84.0" layoutY="42.0" text="Point">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="84.0" text="X:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="84.0" text="Y:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="45.0" text="Transformation Matrix">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="point_button" layoutX="261.0" layoutY="85.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="147.0" text="Count For Point" />
+      <LineChart fx:id="lineChart" layoutX="14.0" layoutY="313.0" prefHeight="358.0" prefWidth="512.0">
+        <xAxis>
+          <NumberAxis side="BOTTOM" fx:id="xAxis" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="yAxis" side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <TextField fx:id="line_x1" layoutX="83.0" layoutY="173.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="line_y1" layoutX="184.0" layoutY="173.0" prefHeight="26.0" prefWidth="42.0" />
+      <Label layoutX="59.0" layoutY="172.0" text="X:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="172.0" text="Y:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="line_x2" layoutX="83.0" layoutY="222.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="line_y2" layoutX="184.0" layoutY="222.0" prefHeight="26.0" prefWidth="42.0" />
+      <Label layoutX="59.0" layoutY="221.0" text="X:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="221.0" text="Y:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="133.0" text="Line">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="line_button" layoutX="261.0" layoutY="199.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="147.0" text="Count For Line" />
+      <TextField fx:id="triangle_x1" layoutX="549.0" layoutY="353.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="triangle_y1" layoutX="651.0" layoutY="353.0" prefHeight="26.0" prefWidth="42.0" />
+      <Label layoutX="526.0" layoutY="352.0" text="X:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="629.0" layoutY="352.0" text="Y:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="triangle_x2" layoutX="550.0" layoutY="402.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="triangle_y2" layoutX="651.0" layoutY="402.0" prefHeight="26.0" prefWidth="42.0" />
+      <Label layoutX="526.0" layoutY="401.0" text="X:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="629.0" layoutY="401.0" text="Y:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="551.0" layoutY="313.0" text="Triangle">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="triangle_button" layoutX="728.0" layoutY="402.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="147.0" text="Count For Triangle" />
+      <TextField fx:id="triangle_x3" layoutX="550.0" layoutY="448.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="triangle_y3" layoutX="651.0" layoutY="448.0" prefHeight="26.0" prefWidth="42.0" />
+      <Label layoutX="526.0" layoutY="447.0" text="X:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="629.0" layoutY="447.0" text="Y:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="trans_matrix_a1" layoutX="683.0" layoutY="78.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="trans_matrix_b1" layoutX="750.0" layoutY="78.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="trans_matrix_a2" layoutX="683.0" layoutY="133.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="trans_matrix_b2" layoutX="750.0" layoutY="133.0" prefHeight="26.0" prefWidth="42.0" />
+      <Label layoutX="644.0" layoutY="45.0" text="Expended Transformation Matrix">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="trans_matrix_a3" layoutX="683.0" layoutY="188.0" prefHeight="26.0" prefWidth="42.0" />
+      <TextField fx:id="trans_matrix_b3" layoutX="750.0" layoutY="188.0" prefHeight="26.0" prefWidth="42.0" />
+      <CheckBox fx:id="check" layoutX="650.0" layoutY="239.0" mnemonicParsing="false" text="Use Expended Transformation Matrix" />
+   </children>
+</AnchorPane>
