@@ -13,6 +13,6 @@ public class Main {
         Duration interval = Duration.between(start, end);
         System.out.println("Execution time with iterations is: " + interval.getSeconds() + " seconds.");
         ThreadCreator threadCreator = new ThreadCreator(EquationsContainer.getEquations());
-        System.out.println(threadCreator.createAndRunThreads(8));
+        System.out.println(threadCreator.createAndRunThreads(10));
     }
 }

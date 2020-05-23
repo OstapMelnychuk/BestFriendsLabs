@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10e1690-77f9-425f-9f6c-ff31d9d93f71" name="Default Changelist" comment="" />
+    <list default="true" id="b10e1690-77f9-425f-9f6c-ff31d9d93f71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/BestFriendsLabs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/firstLabSk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Riznyk/.idea/Riznyk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Riznyk/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Riznyk/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Riznyk/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Riznyk/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleStringParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleStringParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Riznyk/Lab 1 CompGraph/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Riznyk/Lab 1 CompGraph/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Riznyk/Lab 1 CompGraph/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Riznyk/Lab 1 CompGraph/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Skorohoda/Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Skorohoda/Lab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Skorohoda/Lab1/out/production/Lab1/META-INF/Lab1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Skorohoda/Lab1/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Skorohoda/Lab1/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Skorohoda/Lab1/src/com/company/ThreadCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BestFriendsIntegrityUnitID 3/Skorohoda/Lab1/src/com/company/ThreadCreator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +46,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -40,7 +58,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../secondLabSkorohoda" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.164" />
     <property name="project.structure.side.proportion" value="0.37010676" />
@@ -69,18 +87,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -104,6 +110,11 @@
       <workItem from="1583074022464" duration="129000" />
       <workItem from="1583440802600" duration="206000" />
       <workItem from="1583441108867" duration="632000" />
+      <workItem from="1583497296782" duration="1163000" />
+      <workItem from="1583914542309" duration="24000" />
+      <workItem from="1583919736421" duration="177000" />
+      <workItem from="1589276859250" duration="1409000" />
+      <workItem from="1589717301524" duration="240000" />
     </task>
     <task id="LOCAL-00001" summary="Add new constructor for ParallelStringParser without numberOfThreads param.">
       <created>1583441642794</created>
@@ -116,7 +127,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add new constructor for ParallelStringParser without numberOfThreads param." />
@@ -127,14 +138,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1582104502481" />
-    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582105937034">
+    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583497545033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582105937034" />
+    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583497545033" />
     <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1582388738262">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582388738262" />
+    <state x="498" y="195" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583497541717">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="195" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1583497541717" />
     <state x="495" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582121076015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -143,42 +158,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583441641747" />
-    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1583441739547">
+    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1589717539343">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583441739547" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1583441740547">
+    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589717539343" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1589278287493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583441740547" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1583441740547">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589278287493" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1589278287493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583441740547" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1583441740547">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589278287493" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1589278287493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583441740547" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1583441740547">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589278287493" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1589278287493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583441740547" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582235680015">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589278287493" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1583522291196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582235680015" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1582235680015">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583522291196" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1583522291196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582235680015" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1582235680015">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583522291196" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1583522291196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582235680015" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1582235680015">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583522291196" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1583522291196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582235680015" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583522291196" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1582390282712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -201,6 +216,15 @@
     <state x="209" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1583441006942" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ParallelStringParser.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="textForParsing.value" />

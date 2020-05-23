@@ -1,3 +1,5 @@
+
+
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
@@ -20,5 +22,4 @@ public class Main {
         System.out.println("Time for parallel: " + SecondsTimer.calculateTime(parallelStringParser::parse).toMillis() / 1000d + " seconds;\n"
                 + parallelStringParser.getArrayOfIndexes().toString() + "\n");
     }
-
 }
