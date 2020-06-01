@@ -1,6 +1,5 @@
 package com.savchuk.secondlab.repository;
 
-import com.savchuk.secondlab.entity.EntityStatus;
 import com.savchuk.secondlab.entity.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

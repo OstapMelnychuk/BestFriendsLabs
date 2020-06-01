@@ -1,4 +1,4 @@
-package com.savchuk.secondlab.entity;
+package com.savchuk.thirdLab.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,25 +7,25 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.util.List;
 
-import static com.savchuk.secondlab.entity.EntityStatus.ACTIVE;
+import static com.savchuk.thirdLab.entity.EntityStatus.ACTIVE;
 
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Customer {
+public class Owner {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     private String name;
+    private String secondName;
+    private String description;
+    private String nameOfPark;
     private String password;
 
-    @Column(unique = true, nullable = false)
-    private String email;
-
-    private boolean status = ACTIVE.getStatus();
+    private String status = ACTIVE.getStatus();
 
     @OneToMany()
-    private List<Order> orders;
+    private List<Instruction> instructions;
 }

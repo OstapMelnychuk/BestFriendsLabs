@@ -35,12 +35,12 @@ public class OrderService {
 
     public Order findOneById(Long id) {
         return orderRepository.findById(id).orElseThrow(() ->
-                new IllegalArgumentException(ErrorMessage.NO_SUCH_CUSTOMER_FOUND_BY_ID + id));
+                new IllegalArgumentException(ErrorMessage.NO_SUCH_ORDER_FOUND_BY_ID + id));
     }
 
     public Order findOneByName(String name) throws NotFoundException {
         return orderRepository.findByName(name).orElseThrow(() ->
-                new NotFoundException(ErrorMessage.NO_SUCH_CUSTOMER_FOUND_BY_EMAIl + name));
+                new NotFoundException(ErrorMessage.NO_SUCH_ORDER_FOUND_BY_NAME + name));
     }
 
     public void delete(Long id) throws NotFoundException {

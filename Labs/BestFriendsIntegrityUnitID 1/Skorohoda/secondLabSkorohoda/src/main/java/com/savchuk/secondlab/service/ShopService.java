@@ -2,9 +2,7 @@ package com.savchuk.secondlab.service;
 
 import com.savchuk.secondlab.constans.ErrorMessage;
 import com.savchuk.secondlab.dto.ShopRequestDto;
-import com.savchuk.secondlab.entity.Customer;
 import com.savchuk.secondlab.entity.EntityStatus;
-import com.savchuk.secondlab.entity.Order;
 import com.savchuk.secondlab.entity.Shop;
 import com.savchuk.secondlab.repository.ShopRepository;
 import javassist.NotFoundException;
