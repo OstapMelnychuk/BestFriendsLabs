@@ -65,5 +65,4 @@ public class PlantService {
         newPlant.setLocation(plantRequestDto.getLocation());
         plantRepository.save(newPlant);
     }
-
 }

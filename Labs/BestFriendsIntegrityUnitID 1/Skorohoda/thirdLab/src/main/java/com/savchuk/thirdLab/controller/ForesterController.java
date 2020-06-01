@@ -158,11 +158,13 @@ public class ForesterController {
             for (Plant plant : instruction.getPlants()) {
                 instructionDto.getPlantsID().add(plant.getId());
             }
+            instructionDto.setId(instruction.getId());
             instructionDto.setData(instruction.getData());
             instructionDto.setDescription(instruction.getDescription());
             instructionDto.setName(instruction.getName());
             instructionDto.setAnswerOfForester(instruction.getAnswerOfForester());
             instructionDto.setForesterID(instruction.getForester().getId());
+            instructionDto.setStatus(instruction.getStatus());
             instructionRequestDtos.add(instructionDto);
         }
         return ResponseEntity.status(HttpStatus.OK).body

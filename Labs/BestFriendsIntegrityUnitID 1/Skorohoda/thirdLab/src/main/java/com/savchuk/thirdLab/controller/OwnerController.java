@@ -24,12 +24,10 @@ import static com.savchuk.thirdLab.constans.HttpStatus.*;
 @RequestMapping("/owner")
 public class OwnerController {
     private final OwnerService ownerService;
-    private final InstructionService instructionService;
     private final ModelMapper modelMapper;
 
-    public OwnerController(OwnerService ownerService, InstructionService instructionService, ModelMapper modelMapper) {
+    public OwnerController(OwnerService ownerService, ModelMapper modelMapper) {
         this.ownerService = ownerService;
-        this.instructionService = instructionService;
         this.modelMapper = modelMapper;
     }
 
@@ -114,9 +112,22 @@ public class OwnerController {
             @ApiResponse(code = 204, message = NO_CONTENT)
     })
     @GetMapping("/result")
-    public ResponseEntity<Instruction> checkResults(@RequestBody Long instructionID) throws NotFoundException {
+    public ResponseEntity<InstructionDto> checkResults(Long instructionID) throws NotFoundException {
+        InstructionDto instructionDto = new InstructionDto();
+        Instruction instruction = ownerService.checkResults(instructionID);
+        instructionDto.setPlantsID(new ArrayList<>());
+        for (Plant plant : instruction.getPlants()) {
+            instructionDto.getPlantsID().add(plant.getId());
+        }
+        instructionDto.setId(instruction.getId());
+        instructionDto.setData(instruction.getData());
+        instructionDto.setDescription(instruction.getDescription());
+        instructionDto.setName(instruction.getName());
+        instructionDto.setForesterID(instruction.getForester().getId());
+        instructionDto.setAnswerOfForester(instruction.getAnswerOfForester());
+        instructionDto.setStatus(instruction.getStatus());
         return ResponseEntity.status(HttpStatus.OK).body
-                (modelMapper.map(ownerService.checkResults(instructionID), Instruction.class));
+                (instructionDto);
     }
 
     @ApiOperation(value = "Update owner")
@@ -143,10 +154,12 @@ public class OwnerController {
             for (Plant plant : instruction.getPlants()) {
                 instructionDto.getPlantsID().add(plant.getId());
             }
+            instructionDto.setId(instruction.getId());
             instructionDto.setData(instruction.getData());
             instructionDto.setDescription(instruction.getDescription());
             instructionDto.setName(instruction.getName());
             instructionDto.setForesterID(instruction.getForester().getId());
+            instructionDto.setStatus(instruction.getStatus());
             instructionDto.setAnswerOfForester(instruction.getAnswerOfForester());
             instructionRequestDtos.add(instructionDto);
         }
